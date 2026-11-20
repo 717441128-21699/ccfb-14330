@@ -1,0 +1,23 @@
+{
+  "name": "cel-4k-remaster",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "赛璐珞动画 4K 重制工具：线条/平涂色块/水彩背景分层 WebGL2 放大",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "e2e:install": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.20.5",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
